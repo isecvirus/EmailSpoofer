@@ -1,0 +1,26 @@
+sendemail -xu <username> -xp <password> -s <host>:<port> -f <from email> -t <to email> -u <title> -m <message> -o message-header="From: <from name> <from email>"
+
+
+-xu = username of the service
+example: -xu virus
+
+-xp = password of the service
+example: -xp 290bmwyu36fxghino
+
+-s  = host service:port
+example: -s smtp-relay.sendinblue.com:587
+
+-f  = from the spoofed sender
+example: -f police@ksa.com
+
+-t  = to the spoofed receiver
+example: -t usa@lol.gov
+
+-u  = the title of the email message
+example: -u "Check this out"
+
+-m  = the message of the email message
+example: -m "This is what i made for U*S*POO"
+
+-o  = advanced options for details as (sender name)
+example: -o  message-header="From: The USP00 <police@ksa.com>"
